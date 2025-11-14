@@ -112,7 +112,7 @@ export function DrilldownNavMotion({
                         onClick={handleGoBack}
                         className="shrink-0 p-2 hover:bg-gray-100 rounded transition-colors absolute inset-y-0 right-5"
                     >
-                        <ChevronLeft className="w-5 h-5" />
+                        Back
                     </button>
                 ) : (
                     <div aria-hidden="true" />
