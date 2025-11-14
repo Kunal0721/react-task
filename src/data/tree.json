@@ -1,0 +1,250 @@
+[
+    {
+        "id": "product-and-services",
+        "label": "Product & Services",
+        "icon": "Box",
+        "description": "Catalog of offered products, managed services, and subscription tiers.",
+        "children": [
+            {
+                "id": "product-catalog",
+                "label": "Product Catalog",
+                "icon": "Grid",
+                "description": "Structured list of SKUs, versions, and product metadata.",
+                "children": [
+                    {
+                        "id": "catalog-overview",
+                        "label": "Catalog Overview",
+                        "icon": "List",
+                        "description": "High-level listing and search of all products."
+                    },
+                    {
+                        "id": "product-variants",
+                        "label": "Product Variants",
+                        "icon": "Layers",
+                        "description": "Versioning, SKUs and configurable product options."
+                    },
+                    {
+                        "id": "pricing-and-plans",
+                        "label": "Pricing & Plans",
+                        "icon": "Tag",
+                        "description": "Subscription tiers, one-time purchases and discount rules."
+                    }
+                ]
+            },
+            {
+                "id": "managed-services",
+                "label": "Managed Services",
+                "icon": "Server",
+                "description": "Hosted services, SLAs and professional services offerings.",
+                "children": [
+                    {
+                        "id": "deployment-services",
+                        "label": "Deployment Services",
+                        "icon": "UploadCloud",
+                        "description": "Onboarding, deployment automation and migration packages."
+                    },
+                    {
+                        "id": "support-and-sla",
+                        "label": "Support & SLA",
+                        "icon": "Headphones",
+                        "description": "Support tiers, incident response and uptime commitments."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "industry-and-solutions",
+        "label": "Industry & Solutions",
+        "icon": "Briefcase",
+        "description": "Industry verticals and tailored solution bundles.",
+        "children": [
+            {
+                "id": "vertical-solutions",
+                "label": "Vertical Solutions",
+                "icon": "MapPin",
+                "description": "Pre-configured solutions for specific industries.",
+                "children": [
+                    {
+                        "id": "finance-solutions",
+                        "label": "Finance Solutions",
+                        "icon": "PieChart",
+                        "description": "Compliance, reporting and trading infrastructure features."
+                    },
+                    {
+                        "id": "healthcare-solutions",
+                        "label": "Healthcare Solutions",
+                        "icon": "Heart",
+                        "description": "Patient data workflows, privacy and interoperability modules."
+                    },
+                    {
+                        "id": "retail-solutions",
+                        "label": "Retail Solutions",
+                        "icon": "ShoppingCart",
+                        "description": "Inventory, POS integration and omnichannel tooling."
+                    }
+                ]
+            },
+            {
+                "id": "solution-accelerators",
+                "label": "Solution Accelerators",
+                "icon": "Zap",
+                "description": "Templates, blueprints and quick-start packs to speed delivery."
+            }
+        ]
+    },
+    {
+        "id": "company-and-organization",
+        "label": "Company & Organization",
+        "icon": "Building",
+        "description": "Corporate information, teams, legal and partner programs.",
+        "children": [
+            {
+                "id": "about-and-corporate",
+                "label": "About & Corporate",
+                "icon": "Info",
+                "description": "Company overview, mission, leadership and press kit."
+            },
+            {
+                "id": "partners-and-alliances",
+                "label": "Partners & Alliances",
+                "icon": "Handshake",
+                "description": "Partner programs, integrations and reseller information.",
+                "children": [
+                    {
+                        "id": "technology-partners",
+                        "label": "Technology Partners",
+                        "icon": "Cpu",
+                        "description": "Integrated platform partners and certified integrations."
+                    },
+                    {
+                        "id": "channel-partners",
+                        "label": "Channel Partners",
+                        "icon": "Users",
+                        "description": "Resellers, distributors and joint-go-to-market programs."
+                    }
+                ]
+            },
+            {
+                "id": "careers-and-hr",
+                "label": "Careers & HR",
+                "icon": "UserCheck",
+                "description": "Open roles, hiring process and employee programs."
+            }
+        ]
+    },
+    {
+        "id": "analytics-and-insights",
+        "label": "Analytics & Insights",
+        "icon": "BarChart2",
+        "description": "Reporting, dashboards and data exports for operational insight.",
+        "children": [
+            {
+                "id": "dashboards",
+                "label": "Dashboards",
+                "icon": "Monitor",
+                "description": "Prebuilt and custom dashboards for metrics and KPIs.",
+                "children": [
+                    {
+                        "id": "operational-metrics",
+                        "label": "Operational Metrics",
+                        "icon": "Activity",
+                        "description": "System health, throughput and uptime analytics."
+                    },
+                    {
+                        "id": "business-metrics",
+                        "label": "Business Metrics",
+                        "icon": "TrendingUp",
+                        "description": "Revenue, conversion and churn reports."
+                    }
+                ]
+            },
+            {
+                "id": "reports-and-exports",
+                "label": "Reports & Exports",
+                "icon": "FileText",
+                "description": "Scheduled reports, CSV/JSON exports and API access."
+            }
+        ]
+    },
+    {
+        "id": "developer-and-api",
+        "label": "Developer & API",
+        "icon": "Code",
+        "description": "APIs, SDKs, docs and developer tools for integrations.",
+        "children": [
+            {
+                "id": "api-reference",
+                "label": "API Reference",
+                "icon": "BookOpen",
+                "description": "REST, GraphQL and SDK documentation with examples.",
+                "children": [
+                    {
+                        "id": "authentication",
+                        "label": "Authentication",
+                        "icon": "Key",
+                        "description": "OAuth, API keys and token lifecycle management."
+                    },
+                    {
+                        "id": "webhooks",
+                        "label": "Webhooks",
+                        "icon": "Bell",
+                        "description": "Event delivery, retry rules and verification guidelines."
+                    },
+                    {
+                        "id": "sdk-downloads",
+                        "label": "SDK Downloads",
+                        "icon": "Download",
+                        "description": "Client libraries, CLI tools and sample apps."
+                    }
+                ]
+            },
+            {
+                "id": "status-and-release-notes",
+                "label": "Status & Release Notes",
+                "icon": "Clock",
+                "description": "Service status, incident history and changelog entries."
+            }
+        ]
+    },
+    {
+        "id": "account-and-administration",
+        "label": "Account & Administration",
+        "icon": "Settings",
+        "description": "User, billing and security settings for administrators.",
+        "children": [
+            {
+                "id": "user-management",
+                "label": "User Management",
+                "icon": "UserPlus",
+                "description": "Invite users, roles, SSO and permission controls."
+            },
+            {
+                "id": "billing-and-payments",
+                "label": "Billing & Payments",
+                "icon": "CreditCard",
+                "description": "Invoices, payment methods and billing history."
+            },
+            {
+                "id": "security-and-compliance",
+                "label": "Security & Compliance",
+                "icon": "ShieldChecked",
+                "description": "Audit logs, data residency and compliance certifications.",
+                "children": [
+                    {
+                        "id": "audit-logs",
+                        "label": "Audit Logs",
+                        "icon": "FileSearch",
+                        "description": "Immutable logs of admin and API activity."
+                    },
+                    {
+                        "id": "access-controls",
+                        "label": "Access Controls",
+                        "icon": "Lock",
+                        "description": "Role-based access, MFA and policy enforcement."
+                    }
+                ]
+            }
+        ]
+    }
+]
