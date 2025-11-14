@@ -1,7 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion"
 import React from "react"
 import { useNavigationLogic } from "@/hooks/use-navigation-logic"
-import { ChevronLeft } from "lucide-react"
 import { ChevronRight } from "lucide-react"
 import { getIcon } from "@/lib/icon-utils"
 import type { NavProps } from "@/types/navigation"
