@@ -109,7 +109,7 @@ export function DrilldownNavMotion({
                     <button
                         aria-label="Go back"
                         onClick={handleGoBack}
-                        className="shrink-0 p-2 hover:bg-gray-100 rounded transition-colors absolute inset-y-0 right-5"
+                        className="shrink-0 p-2 text-[14px]  hover:bg-gray-100 rounded transition-colors absolute inset-y-0 right-5"
                     >
                         Back
                     </button>
